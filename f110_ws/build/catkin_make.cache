@@ -1,0 +1,2 @@
+f110-fall2018-skeletons/labs/gap_finding:f110-fall2018-skeletons/labs/lab_pure_pursuit:f110-fall2018-skeletons/labs/wall_following
+-DCATKIN_DEVEL_PREFIX=/home/nvidia/Capstone_RacecarJ/f110_ws/devel -DCMAKE_INSTALL_PREFIX=/home/nvidia/Capstone_RacecarJ/f110_ws/install -G Unix Makefiles
