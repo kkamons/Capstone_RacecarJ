@@ -1,0 +1,4 @@
+To call darknet from command line:
+./darknet method cfg_file path/to/weights path/to/image
+./darknet detect cfg/tiny.cfg ~/darknet/yolov2.weights data/horses.jpg
+
