@@ -65,7 +65,7 @@ def callback(data):
     if joystick_present:
         velocity = data.velocity
         angle = data.angle
-    
+
     drive_msg = AckermannDriveStamped()
     drive_msg.header.stamp = rospy.Time.now()
     drive_msg.header.frame_id = "base_link"
