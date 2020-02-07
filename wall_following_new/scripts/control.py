@@ -37,7 +37,7 @@ def control_callback(data):
         print("errs_L and steer", err_Lp, err_Ld, steer_L)
 
  """-------------------------------------------------------"""
-    if RE>LE:
+    if Re>Le:
         errs_R[0] = errs_R[1]  #shift data up in the array
         errs_R[1] = Re
 
