@@ -7,4 +7,10 @@
 # new environment variables
 
 # modified environment variables
-export PWD="/home/nvidia/sandbox/sim_ws/build"
+export CMAKE_PREFIX_PATH="/home/nvidia/Capstone_RacecarJ/sim_ws_new/devel:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/home/nvidia/Capstone_RacecarJ/sim_ws_new/devel/lib:$LD_LIBRARY_PATH"
+export PKG_CONFIG_PATH="/home/nvidia/Capstone_RacecarJ/sim_ws_new/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
+export PWD="/home/nvidia/Capstone_RacecarJ/sim_ws_new/build"
+export PYTHONPATH="/home/nvidia/Capstone_RacecarJ/sim_ws_new/devel/lib/python2.7/dist-packages:$PYTHONPATH"
+export ROSLISP_PACKAGE_DIRECTORIES="/home/nvidia/Capstone_RacecarJ/sim_ws_new/devel/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/nvidia/sandbox/sim_ws/src:/home/nvidia/Capstone_RacecarJ/sim_ws_new/src:$ROS_PACKAGE_PATH"

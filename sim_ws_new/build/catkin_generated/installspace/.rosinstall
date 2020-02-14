@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/nvidia/sandbox/sim_ws/install/setup.sh
+    local-name: /home/nvidia/Capstone_RacecarJ/sim_ws_new/install/setup.sh

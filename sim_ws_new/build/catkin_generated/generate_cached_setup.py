@@ -12,16 +12,16 @@ try:
     from catkin.environment_cache import generate_environment_script
 except ImportError:
     # search for catkin package in all workspaces and prepend to path
-    for workspace in "/home/nvidia/sandbox/sim_ws/devel;/home/nvidia/racecar-ws/devel;/opt/ros/kinetic".split(';'):
+    for workspace in "/home/nvidia/Capstone_RacecarJ/f110_ws/devel;/home/nvidia/ydlidar_ws/devel;/opt/ros/kinetic".split(';'):
         python_path = os.path.join(workspace, 'lib/python2.7/dist-packages')
         if os.path.isdir(os.path.join(python_path, 'catkin')):
             sys.path.insert(0, python_path)
             break
     from catkin.environment_cache import generate_environment_script
 
-code = generate_environment_script('/home/nvidia/sandbox/sim_ws/devel/env.sh')
+code = generate_environment_script('/home/nvidia/Capstone_RacecarJ/sim_ws_new/devel/env.sh')
 
-output_filename = '/home/nvidia/sandbox/sim_ws/build/catkin_generated/setup_cached.sh'
+output_filename = '/home/nvidia/Capstone_RacecarJ/sim_ws_new/build/catkin_generated/setup_cached.sh'
 with open(output_filename, 'w') as f:
     #print('Generate script for cached setup "%s"' % output_filename)
     f.write('\n'.join(code))

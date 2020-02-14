@@ -1,1 +1,1 @@
-set(ORDERED_PATHS "/opt/ros/kinetic/lib")
+set(ORDERED_PATHS "/opt/ros/kinetic/lib;/home/nvidia/sandbox/sim_ws/devel/lib")

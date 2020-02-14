@@ -1,8 +1,8 @@
-prefix=/home/nvidia/sandbox/sim_ws/install
+prefix=/home/nvidia/Capstone_RacecarJ/sim_ws_new/install
 
 Name: vesc_ackermann
 Description: Description of vesc_ackermann
 Version: 0.0.1
-Cflags: -I/home/nvidia/sandbox/sim_ws/install/include
-Libs: -L/home/nvidia/sandbox/sim_ws/install/lib 
+Cflags: -I/home/nvidia/Capstone_RacecarJ/sim_ws_new/install/include
+Libs: -L/home/nvidia/Capstone_RacecarJ/sim_ws_new/install/lib 
 Requires: nodelet pluginlib roscpp nav_msgs std_msgs geometry_msgs tf ackermann_msgs vesc_msgs
