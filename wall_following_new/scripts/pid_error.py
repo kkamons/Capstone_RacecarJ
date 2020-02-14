@@ -113,9 +113,14 @@ def scan_callback(data):
   #Lerror = followLeft(data,0.5) # TODO: replace with followLeft, followRight, or followCenter
   #Rerror = followRight(data,0.5)
   msg = Float64()
+<<<<<<< HEAD
   msg.data = error
   #msg.Ldata = Lerror
   #msg.Rdata = Rerror
+=======
+  msg.data = Lerror
+  msg.data = Rerror
+>>>>>>> 5f0ba1286d7fc9e38e10fbe697d4bcc36c215eaf
   pub.publish(msg)
 
 # Boilerplate code to start this ROS node.
